@@ -24,10 +24,10 @@ const ReadPartners = () => {
           const  context = {
           }
          
-          /*odoo.get('res.partner', params, context)
+          odoo.get('res.partner', params, context)
           .then((response) => response.json())
           .then((json) => setPartnerList(json.result))
-          .catch(e => {})*/
+          .catch(e => {})
   return (
     <View>
       <Text>here{partnerList}</Text>
